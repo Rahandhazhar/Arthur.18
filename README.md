@@ -8,10 +8,6 @@ A modern, responsive portfolio website showcasing Arthur's skills, projects, and
 - **Responsive**: Fully responsive design that works on all devices
 - **Interactive**: Smooth scrolling, hover effects, and engaging animations
 - **Music Integration**: Features the song "Did I Tell You I Miss You" by Adore
-- **Contact Information**: Includes Discord ID (963802319877730344) and contact form
-- **Skills Showcase**: Animated skill cards with modern icons
-- **Project Gallery**: Showcase of featured projects with tech stacks
-- **Performance Optimized**: Fast loading with optimized assets
 
 ## 🎵 Music Feature
 
