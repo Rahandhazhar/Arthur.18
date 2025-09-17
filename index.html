@@ -3,380 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arthur - Portfolio</title>
+    <title>Arthur</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <span class="logo-text">Arthur</span>
-            </div>
-            <div class="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#contact" class="nav-link">Contact</a>
-            </div>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+    <!-- Background Elements -->
+    <div class="bg-elements">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+        <div class="floating-shape shape-5"></div>
+    </div>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">
-                        Hi, I'm <span class="highlight">Arthur</span>
-                    </h1>
-                    <p class="hero-subtitle">Creative Developer & Digital Artist</p>
-                    <p class="hero-description">
-                        Passionate about creating amazing digital experiences and bringing ideas to life through code and design.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View My Work</a>
-                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Profile Section -->
+        <section class="profile-section">
+            <div class="profile-card">
+                <div class="profile-image-container">
+                    <div class="profile-image">
+                        <img src="https://cdn.discordapp.com/avatars/963802319877730344/a_default.gif" alt="Arthur's Avatar" id="discord-avatar">
+                        <div class="status-indicator"></div>
                     </div>
+                    <div class="profile-glow"></div>
                 </div>
-                <div class="hero-image">
-                    <div class="profile-card">
-                        <div class="profile-avatar">
-                            <i class="fas fa-user"></i>
-                        </div>
-                        <div class="profile-info">
-                            <h3>Arthur</h3>
-                            <p>Developer & Creator</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="scroll-indicator">
-                <div class="scroll-arrow"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">Get to know more about who I am</p>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>Hello! I'm Arthur</h3>
-                    <p>
-                        I'm a passionate developer and digital creator who loves building innovative solutions and creating beautiful digital experiences. 
-                        With a keen eye for design and a love for clean code, I strive to create projects that are both functional and visually appealing.
-                    </p>
-                    <p>
-                        When I'm not coding, you can find me exploring new technologies, listening to music, or connecting with fellow developers 
-                        in the community. I believe in continuous learning and always pushing the boundaries of what's possible.
-                    </p>
-                    <div class="contact-info">
-                        <div class="contact-item">
+                
+                <div class="profile-info">
+                    <h1 class="profile-name">Arthur</h1>
+                    <p class="profile-tagline">Living life one moment at a time</p>
+                    
+                    <div class="social-links">
+                        <a href="https://discord.com/users/963802319877730344" target="_blank" class="social-link discord">
                             <i class="fab fa-discord"></i>
-                            <span>Discord: 963802319877730344</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <h4>50+</h4>
-                        <p>Projects Completed</p>
-                    </div>
-                    <div class="stat-item">
-                        <h4>2+</h4>
-                        <p>Years Experience</p>
-                    </div>
-                    <div class="stat-item">
-                        <h4>100%</h4>
-                        <p>Client Satisfaction</p>
+                            <span>Connect on Discord</span>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Skills & Technologies</h2>
-                <p class="section-subtitle">Technologies I work with</p>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-html5"></i>
-                    </div>
-                    <h3>HTML5</h3>
-                    <p>Semantic markup and modern web standards</p>
+        <!-- Music Section -->
+        <section class="music-section">
+            <div class="music-container">
+                <div class="music-header">
+                    <h2>My Vibes</h2>
+                    <p>Currently listening to my favorite playlist</p>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-css3-alt"></i>
-                    </div>
-                    <h3>CSS3</h3>
-                    <p>Advanced styling and responsive design</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-js-square"></i>
-                    </div>
-                    <h3>JavaScript</h3>
-                    <p>Modern ES6+ and interactive web applications</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-react"></i>
-                    </div>
-                    <h3>React</h3>
-                    <p>Component-based UI development</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-node-js"></i>
-                    </div>
-                    <h3>Node.js</h3>
-                    <p>Server-side JavaScript development</p>
-                </div>
-                <div class="skill-card">
-                    <div class="skill-icon">
-                        <i class="fab fa-git-alt"></i>
-                    </div>
-                    <h3>Git</h3>
-                    <p>Version control and collaboration</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Music Section -->
-    <section id="music" class="music">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Currently Listening</h2>
-                <p class="section-subtitle">Music that inspires my creativity</p>
-            </div>
-            <div class="music-player">
-                <div class="music-info">
-                    <div class="album-art">
-                        <i class="fas fa-music"></i>
-                    </div>
-                    <div class="song-details">
-                        <h3>Did I Tell You I Miss You</h3>
-                        <p>by Adore</p>
-                        <div class="music-note">
-                            <i class="fas fa-heart"></i>
-                            <span>One of my favorite tracks that keeps me motivated while coding!</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="spotify-embed">
-                    <!-- Note: You'll need to replace this with the actual Spotify embed code -->
-                    <iframe style="border-radius:12px" 
-                            src="https://open.spotify.com/embed/track/4uLU6hMCjMI75M1A2tKUQC?utm_source=generator" 
-                            width="100%" 
-                            height="152" 
-                            frameBorder="0" 
-                            allowfullscreen="" 
-                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                            loading="lazy">
+                
+                <div class="spotify-player">
+                    <iframe
+                        title="Spotify Embed: Arthur's Playlist"
+                        src="https://open.spotify.com/embed/playlist/2ornZcOTNIr14xXfnUnI9B?utm_source=generator&theme=0"
+                        width="100%"
+                        height="360"
+                        frameBorder="0"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy">
                     </iframe>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Some of my recent work</p>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-code"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Portfolio Website</h3>
-                        <p>A modern, responsive portfolio website built with HTML, CSS, and JavaScript.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                Live Demo
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fab fa-github"></i>
-                                Code
-                            </a>
-                        </div>
+        <!-- Aesthetic Section -->
+        <section class="aesthetic-section">
+            <div class="aesthetic-grid">
+                <div class="aesthetic-card card-1">
+                    <div class="card-content">
+                        <i class="fas fa-moon"></i>
+                        <h3>Night Owl</h3>
+                        <p>Best ideas come after midnight</p>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Mobile App UI</h3>
-                        <p>Clean and intuitive mobile application interface design with smooth animations.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React Native</span>
-                            <span class="tech-tag">UI/UX</span>
-                            <span class="tech-tag">Animation</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                Live Demo
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fab fa-github"></i>
-                                Code
-                            </a>
-                        </div>
+                
+                <div class="aesthetic-card card-2">
+                    <div class="card-content">
+                        <i class="fas fa-coffee"></i>
+                        <h3>Coffee Lover</h3>
+                        <p>Fueled by caffeine and dreams</p>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-database"></i>
-                        </div>
+                
+                <div class="aesthetic-card card-3">
+                    <div class="card-content">
+                        <i class="fas fa-music"></i>
+                        <h3>Music Soul</h3>
+                        <p>Life has a soundtrack</p>
                     </div>
-                    <div class="project-content">
-                        <h3>Web Application</h3>
-                        <p>Full-stack web application with user authentication and real-time features.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">MongoDB</span>
-                            <span class="tech-tag">Socket.io</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                                Live Demo
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fab fa-github"></i>
-                                Code
-                            </a>
-                        </div>
+                </div>
+                
+                <div class="aesthetic-card card-4">
+                    <div class="card-content">
+                        <i class="fas fa-heart"></i>
+                        <h3>Good Vibes</h3>
+                        <p>Spreading positivity everywhere</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Let's work together on something amazing</p>
+        <!-- Quote Section -->
+        <section class="quote-section">
+            <div class="quote-container">
+                <blockquote>
+                    <p>"Be yourself; everyone else is already taken."</p>
+                    <cite>— Oscar Wilde</cite>
+                </blockquote>
             </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect!</h3>
-                    <p>
-                        I'm always open to discussing new opportunities, creative projects, or just having a chat about technology and development.
-                    </p>
-                    <div class="contact-methods">
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fab fa-discord"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>Discord</h4>
-                                <p>963802319877730344</p>
-                            </div>
-                        </div>
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>Email</h4>
-                                <p>arthur@example.com</p>
-                            </div>
-                        </div>
-                        <div class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fab fa-github"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4>GitHub</h4>
-                                <p>github.com/arthur</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
+        <!-- Footer -->
+        <footer class="footer">
             <div class="footer-content">
-                <div class="footer-text">
-                    <p>&copy; 2024 Arthur. All rights reserved.</p>
-                </div>
-                <div class="footer-social">
-                    <a href="#" class="social-link">
-                        <i class="fab fa-discord"></i>
-                    </a>
-                    <a href="#" class="social-link">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="#" class="social-link">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="#" class="social-link">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </div>
+                <p>&copy; 2024 Arthur. Made with <i class="fas fa-heart"></i></p>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
+
+    <!-- Cursor Trail -->
+    <div class="cursor-trail"></div>
 
     <script src="script.js"></script>
 </body>
