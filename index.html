@@ -3,126 +3,328 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arthur</title>
+    <title>Arthur's Universe ✨</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Background Elements -->
-    <div class="bg-elements">
-        <div class="floating-shape shape-1"></div>
-        <div class="floating-shape shape-2"></div>
-        <div class="floating-shape shape-3"></div>
-        <div class="floating-shape shape-4"></div>
-        <div class="floating-shape shape-5"></div>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds"></div>
+        <div class="aurora"></div>
     </div>
 
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-coffee">☕</div>
+        <div class="floating-cat">🐱</div>
+        <div class="floating-moon">🌙</div>
+        <div class="floating-music">🎵</div>
+        <div class="floating-star">⭐</div>
+        <div class="floating-heart">💜</div>
+        <div class="floating-sparkle">✨</div>
+        <div class="floating-comet">☄️</div>
+    </div>
+
+    <!-- Particle System -->
+    <div id="particles-container"></div>
+
+    <!-- Navigation -->
+    <nav class="cosmic-nav">
+        <div class="nav-brand">
+            <span class="brand-text">Arthur's Universe</span>
+            <div class="brand-glow"></div>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">🏠 Home</a>
+            <a href="#about" class="nav-link">🌟 About</a>
+            <a href="#vibes" class="nav-link">🎵 Vibes</a>
+            <a href="#universe" class="nav-link">🌌 Universe</a>
+        </div>
+    </nav>
+
     <!-- Main Container -->
-    <div class="main-container">
-        <!-- Profile Section -->
-        <section class="profile-section">
-            <div class="profile-card">
-                <div class="profile-image-container">
-                    <div class="profile-image">
-                        <img src="https://cdn.discordapp.com/avatars/963802319877730344/a_default.gif" alt="Arthur's Avatar" id="discord-avatar">
-                        <div class="status-indicator"></div>
+    <div class="cosmic-container">
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero-universe">
+            <div class="hero-content">
+                <div class="profile-constellation">
+                    <div class="profile-orbit">
+                        <div class="profile-center">
+                            <div class="profile-avatar-container">
+                                <div class="avatar-rings">
+                                    <div class="ring ring-1"></div>
+                                    <div class="ring ring-2"></div>
+                                    <div class="ring ring-3"></div>
+                                </div>
+                                <div class="profile-avatar">
+                                    <img src="https://cdn.discordapp.com/embed/avatars/4.png" alt="Arthur" id="discord-avatar">
+                                    <div class="avatar-glow"></div>
+                                    <div class="status-pulse"></div>
+                                </div>
+                            </div>
+                            <div class="profile-info">
+                                <h1 class="cosmic-name">
+                                    <span class="name-letter">A</span>
+                                    <span class="name-letter">r</span>
+                                    <span class="name-letter">t</span>
+                                    <span class="name-letter">h</span>
+                                    <span class="name-letter">u</span>
+                                    <span class="name-letter">r</span>
+                                </h1>
+                                <div class="cosmic-tagline">
+                                    <span class="tagline-text">Night Owl ☽ Coffee Lover ☕ Cat Enthusiast 🐱</span>
+                                    <div class="tagline-underline"></div>
+                                </div>
+                                <div class="social-constellation">
+                                    <a href="https://discord.com/users/963802319877730344" target="_blank" class="cosmic-link discord-link">
+                                        <div class="link-bg"></div>
+                                        <i class="fab fa-discord"></i>
+                                        <span>Connect in the Digital Realm</span>
+                                        <div class="link-particles"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Orbiting Elements -->
+                        <div class="orbit-element orbit-1">☕</div>
+                        <div class="orbit-element orbit-2">🐱</div>
+                        <div class="orbit-element orbit-3">🌙</div>
+                        <div class="orbit-element orbit-4">🎵</div>
+                        <div class="orbit-element orbit-5">⭐</div>
+                        <div class="orbit-element orbit-6">💜</div>
                     </div>
-                    <div class="profile-glow"></div>
                 </div>
-                
-                <div class="profile-info">
-                    <h1 class="profile-name">Arthur</h1>
-                    <p class="profile-tagline">Living life one moment at a time</p>
-                    
-                    <div class="social-links">
-                        <a href="https://discord.com/users/963802319877730344" target="_blank" class="social-link discord">
-                            <i class="fab fa-discord"></i>
-                            <span>Connect on Discord</span>
-                        </a>
+            </div>
+            
+            <!-- Scroll Indicator -->
+            <div class="cosmic-scroll">
+                <div class="scroll-text">Explore the Universe</div>
+                <div class="scroll-arrow">
+                    <div class="arrow-line"></div>
+                    <div class="arrow-head"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-universe">
+            <div class="section-header">
+                <h2 class="cosmic-title">About This Universe</h2>
+                <div class="title-constellation"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card night-owl-card">
+                    <div class="card-bg"></div>
+                    <div class="card-content">
+                        <div class="card-icon">🌙</div>
+                        <h3>Night Owl</h3>
+                        <p>The darkness is where creativity blooms. While the world sleeps, I'm awake crafting dreams and chasing stars. The night whispers secrets that only we nocturnal souls can hear.</p>
+                        <div class="card-stats">
+                            <div class="stat">
+                                <span class="stat-number">3AM</span>
+                                <span class="stat-label">Peak Hours</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">∞</span>
+                                <span class="stat-label">Night Ideas</span>
+                            </div>
+                        </div>
                     </div>
+                    <div class="card-glow night-glow"></div>
+                </div>
+
+                <div class="about-card coffee-card">
+                    <div class="card-bg"></div>
+                    <div class="card-content">
+                        <div class="card-icon">☕</div>
+                        <h3>Coffee Connoisseur</h3>
+                        <p>Coffee isn't just a drink, it's liquid inspiration. Each cup holds the power to transform thoughts into reality. From the first sip to the last drop, it's pure magic in a mug.</p>
+                        <div class="card-stats">
+                            <div class="stat">
+                                <span class="stat-number">7+</span>
+                                <span class="stat-label">Cups Daily</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Caffeine Powered</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-glow coffee-glow"></div>
+                </div>
+
+                <div class="about-card cat-card">
+                    <div class="card-bg"></div>
+                    <div class="card-content">
+                        <div class="card-icon">🐱</div>
+                        <h3>Cat Whisperer</h3>
+                        <p>Cats understand the universe in ways we can only dream of. They're mysterious, independent, and absolutely perfect. Every purr is a meditation, every meow a conversation with the cosmos.</p>
+                        <div class="card-stats">
+                            <div class="stat">
+                                <span class="stat-number">9</span>
+                                <span class="stat-label">Lives Envied</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">∞</span>
+                                <span class="stat-label">Cat Videos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-glow cat-glow"></div>
                 </div>
             </div>
         </section>
 
         <!-- Music Section -->
-        <section class="music-section">
-            <div class="music-container">
-                <div class="music-header">
-                    <h2>My Vibes</h2>
-                    <p>Currently listening to my favorite playlist</p>
+        <section id="vibes" class="music-universe">
+            <div class="section-header">
+                <h2 class="cosmic-title">Cosmic Vibes</h2>
+                <div class="title-constellation"></div>
+                <p class="section-subtitle">The soundtrack to my universe</p>
+            </div>
+            
+            <div class="music-player-cosmic">
+                <div class="player-bg"></div>
+                <div class="player-content">
+                    <div class="music-visualizer">
+                        <div class="visualizer-bar"></div>
+                        <div class="visualizer-bar"></div>
+                        <div class="visualizer-bar"></div>
+                        <div class="visualizer-bar"></div>
+                        <div class="visualizer-bar"></div>
+                        <div class="visualizer-bar"></div>
+                        <div class="visualizer-bar"></div>
+                        <div class="visualizer-bar"></div>
+                    </div>
+                    
+                    <div class="spotify-embed-container">
+                        <iframe
+                            title="Arthur's Cosmic Playlist"
+                            src="https://open.spotify.com/embed/playlist/2ornZcOTNIr14xXfnUnI9B?utm_source=generator&theme=0"
+                            width="100%"
+                            height="400"
+                            frameBorder="0"
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                    
+                    <div class="music-description">
+                        <p>🎵 These are the melodies that fuel my late-night adventures and coffee-powered dreams. Each song is a portal to a different dimension of creativity.</p>
+                    </div>
                 </div>
-                
-                <div class="spotify-player">
-                    <iframe
-                        title="Spotify Embed: Arthur's Playlist"
-                        src="https://open.spotify.com/embed/playlist/2ornZcOTNIr14xXfnUnI9B?utm_source=generator&theme=0"
-                        width="100%"
-                        height="360"
-                        frameBorder="0"
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy">
-                    </iframe>
+                <div class="player-glow"></div>
+            </div>
+        </section>
+
+        <!-- Universe Section -->
+        <section id="universe" class="universe-gallery">
+            <div class="section-header">
+                <h2 class="cosmic-title">My Universe</h2>
+                <div class="title-constellation"></div>
+                <p class="section-subtitle">A collection of things that make my world magical</p>
+            </div>
+            
+            <div class="galaxy-grid">
+                <div class="galaxy-card midnight-card">
+                    <div class="galaxy-bg"></div>
+                    <div class="galaxy-content">
+                        <div class="galaxy-icon">🌃</div>
+                        <h3>Midnight Thoughts</h3>
+                        <p>When the world is quiet, the mind speaks loudest. These are the hours of pure creativity and endless possibilities.</p>
+                    </div>
+                    <div class="galaxy-glow midnight-glow"></div>
+                </div>
+
+                <div class="galaxy-card coffee-beans-card">
+                    <div class="galaxy-bg"></div>
+                    <div class="galaxy-content">
+                        <div class="galaxy-icon">🫘</div>
+                        <h3>Coffee Rituals</h3>
+                        <p>The perfect grind, the perfect brew, the perfect moment. Coffee is my daily ceremony of awakening and inspiration.</p>
+                    </div>
+                    <div class="galaxy-glow coffee-beans-glow"></div>
+                </div>
+
+                <div class="galaxy-card cat-dreams-card">
+                    <div class="galaxy-bg"></div>
+                    <div class="galaxy-content">
+                        <div class="galaxy-icon">😸</div>
+                        <h3>Feline Philosophy</h3>
+                        <p>Cats have mastered the art of living. They know when to play, when to rest, and when to simply exist in the moment.</p>
+                    </div>
+                    <div class="galaxy-glow cat-dreams-glow"></div>
+                </div>
+
+                <div class="galaxy-card stargazing-card">
+                    <div class="galaxy-bg"></div>
+                    <div class="galaxy-content">
+                        <div class="galaxy-icon">🔭</div>
+                        <h3>Stargazing</h3>
+                        <p>Looking up at the infinite expanse reminds me that we're all made of stardust, connected to something greater.</p>
+                    </div>
+                    <div class="galaxy-glow stargazing-glow"></div>
+                </div>
+
+                <div class="galaxy-card cozy-card">
+                    <div class="galaxy-bg"></div>
+                    <div class="galaxy-content">
+                        <div class="galaxy-icon">🕯️</div>
+                        <h3>Cozy Vibes</h3>
+                        <p>Soft lighting, warm blankets, and the gentle hum of life. Sometimes the smallest moments hold the greatest magic.</p>
+                    </div>
+                    <div class="galaxy-glow cozy-glow"></div>
+                </div>
+
+                <div class="galaxy-card dreams-card">
+                    <div class="galaxy-bg"></div>
+                    <div class="galaxy-content">
+                        <div class="galaxy-icon">💭</div>
+                        <h3>Dream Weaver</h3>
+                        <p>In dreams, we're limitless. Every night is a new adventure, a new story, a new possibility waiting to unfold.</p>
+                    </div>
+                    <div class="galaxy-glow dreams-glow"></div>
                 </div>
             </div>
         </section>
 
-        <!-- Aesthetic Section -->
-        <section class="aesthetic-section">
-            <div class="aesthetic-grid">
-                <div class="aesthetic-card card-1">
-                    <div class="card-content">
-                        <i class="fas fa-moon"></i>
-                        <h3>Night Owl</h3>
-                        <p>Best ideas come after midnight</p>
-                    </div>
-                </div>
-                
-                <div class="aesthetic-card card-2">
-                    <div class="card-content">
-                        <i class="fas fa-coffee"></i>
-                        <h3>Coffee Lover</h3>
-                        <p>Fueled by caffeine and dreams</p>
-                    </div>
-                </div>
-                
-                <div class="aesthetic-card card-3">
-                    <div class="card-content">
-                        <i class="fas fa-music"></i>
-                        <h3>Music Soul</h3>
-                        <p>Life has a soundtrack</p>
-                    </div>
-                </div>
-                
-                <div class="aesthetic-card card-4">
-                    <div class="card-content">
-                        <i class="fas fa-heart"></i>
-                        <h3>Good Vibes</h3>
-                        <p>Spreading positivity everywhere</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Quote Section -->
-        <section class="quote-section">
+        <!-- Quote Universe -->
+        <section class="quote-universe">
             <div class="quote-container">
-                <blockquote>
-                    <p>"Be yourself; everyone else is already taken."</p>
-                    <cite>— Oscar Wilde</cite>
+                <div class="quote-bg"></div>
+                <blockquote class="cosmic-quote">
+                    <div class="quote-marks">"</div>
+                    <p class="quote-text">In the quiet hours of the night, with coffee as my companion and cats as my muse, I find the universe speaking in whispers only the soul can hear.</p>
+                    <cite class="quote-author">— Arthur, Night Owl Philosopher</cite>
                 </blockquote>
+                <div class="quote-glow"></div>
             </div>
         </section>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-content">
-                <p>&copy; 2024 Arthur. Made with <i class="fas fa-heart"></i></p>
-            </div>
-        </footer>
     </div>
 
-    <!-- Cursor Trail -->
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="footer-content">
+            <p>✨ Made with cosmic love and endless coffee ☕ by Arthur 🌙</p>
+            <div class="footer-sparkles">
+                <span>⭐</span>
+                <span>✨</span>
+                <span>🌟</span>
+                <span>💫</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cursor Effects -->
+    <div class="cursor-glow"></div>
     <div class="cursor-trail"></div>
 
     <script src="script.js"></script>
